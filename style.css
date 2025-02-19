@@ -37,3 +37,29 @@ body {
 .btn:hover {
     background: #ffd700;
 }
+h1 {
+    color: gold;
+    text-shadow: 2px 2px 5px black;
+}
+
+p, a {
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px black;
+}
+
+.btn {
+    display: inline-block;
+    background: gold;
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffd700;
+}
