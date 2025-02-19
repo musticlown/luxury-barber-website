@@ -22,3 +22,18 @@ body {
     padding: 20px;
     height: 100vh;
 }
+.btn {
+    display: inline-block;
+    background: gold;
+    color: black;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffd700;
+}
