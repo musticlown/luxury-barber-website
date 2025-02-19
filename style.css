@@ -13,3 +13,12 @@ a {
     color: gold;
     font-weight: bold;
 }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('barbershop-bg.jpg') no-repeat center center/cover;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+}
