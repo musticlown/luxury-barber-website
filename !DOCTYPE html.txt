@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Barber MN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: #222;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .hero {
+            background: url('barber-shop.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            background: gold;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .services, .testimonials, .contact {
+            margin-top: 40px;
+        }
+        .service-item {
+            background: #222;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #222;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Luxury Barber MN</header>
+    
+    <div class="hero">Premium Grooming Experience</div>
+    
+    <div class="container">
+        <h2>Book Your Exclusive Appointment</h2>
+        <a href="#booking" class="btn">Book Now</a>
+    </div>
+    
+    <div class="container services">
+        <h2>Our Services</h2>
+        <div class="service-item">Executive Haircut & Styling</div>
+        <div class="service-item">Beard Trim & Luxury Shave</div>
+        <div class="service-item">Mobile VIP Grooming</div>
+    </div>
+    
+    <div class="container testimonials">
+        <h2>Client Testimonials</h2>
+        <p>"Best haircut experience I've ever had! Highly recommend." - John D.</p>
+        <p>"Professional, luxury service. I always feel fresh after a visit." - Michael S.</p>
+    </div>
+    
+    <div class="container contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@luxurybarbermn.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </div>
+    
+    <footer>&copy; 2025 Luxury Barber MN - All Rights Reserved</footer>
+</body>
+</html>
