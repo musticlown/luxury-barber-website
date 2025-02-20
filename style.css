@@ -65,23 +65,38 @@ p {
     transform: scale(0.95);
 }
 
-/* Contact Section */
+/* Contact Section - Centered & Properly Positioned */
 .contact {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 20px; /* Adds space below "Book Now" button */
+    margin-bottom: 30px; /* Creates space between phone number and testimonials */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.contact a {
+    color: gold;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-/* Testimonials Section */
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Testimonials Section - More Space & Alignment */
 .testimonials {
-    margin-top: 60px;
+    margin-top: 50px; /* Increased top spacing */
     padding: 30px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     text-align: center;
-    width: 100%;
+    width: 90%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -90,7 +105,7 @@ p {
 /* Testimonials Header */
 .testimonials h2 {
     color: gold;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 24px;
 }
 
@@ -98,14 +113,16 @@ p {
 .testimonial {
     background: rgba(255, 255, 255, 0.15);
     padding: 20px;
-    margin: 20px 0;
+    margin: 25px 0; /* Increases space between each testimonial */
     border-radius: 5px;
     font-style: italic;
     font-size: 16px;
     color: white;
     width: 90%;
+    max-width: 550px;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 
