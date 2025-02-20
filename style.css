@@ -6,31 +6,39 @@ body {
     color: white;
     margin: 0;
     padding: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 800px;
 }
 
 /* Main Content Box */
 .content {
     background: rgba(0, 0, 0, 0.6);
-    padding: 20px;
+    padding: 25px;
     border-radius: 10px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     max-width: 500px;
+    margin: 20px auto;
 }
 
 /* Headings and Text */
 h1 {
     color: gold;
     text-shadow: 2px 2px 5px black;
+    font-size: 28px;
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -62,32 +70,24 @@ p {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.contact a {
-    color: gold;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.contact a:hover {
-    text-decoration: underline;
-}
-
-/* Testimonial Section */
+/* Testimonials Section */
 .testimonials {
-    margin-top: 50px;
-    padding: 20px;
+    margin-top: 60px;
+    padding: 30px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     text-align: center;
-    width: 80%;
+    width: 100%;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Testimonials Header */
 .testimonials h2 {
     color: gold;
     margin-bottom: 15px;
@@ -107,4 +107,5 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
 
