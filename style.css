@@ -1,121 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #111;
-    color: white;
-    margin: 0;
-    padding: 20px;
-}
-h1 {
-    color: gold;
-}
-a {
-    color: gold;
-    font-weight: bold;
-}
+/* General Page Styling */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     background: url('background.jpg') no-repeat center center/cover;
     color: white;
     margin: 0;
-    padding: 20px;
-    height: 100vh;
-}
-/* Button Animation */
-.btn {
-    display: inline-block;
-    background: gold;
-    color: black;
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-}
-
-/* Hover Effect - Button Slightly Grows and Glows */
-.btn:hover {
-    background: #ffd700;
-    transform: scale(1.1);
-    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
-}
-
-/* Click Effect - Button Press Animation */
-.btn:active {
-    transform: scale(0.95);
-}
-
-}
-
-/* Hover Effect - Button Slightly Grows */
-.btn:hover {
-    background: #ffd700;
-    transform: scale(1.1); /* Enlarges button slightly */
-}
-
-/* Click Effect - Button Press Animation */
-.btn:active {
-    transform: scale(0.95); /* Slight press-down effect */
-}
-
-}
-
-.btn:hover {
-    background: #ffd700;
-}
-h1 {
-    color: gold;
-    text-shadow: 2px 2px 5px black;
-    background: rgba(0, 0, 0, 0.6); /* Adds a dark transparent background */
-    padding: 10px;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-p {
-    font-weight: bold;
-    color: white;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 5px;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-.btn {
-    display: inline-block;
-    background: gold;
-    color: black;
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Adds a shadow */
-}
-
-.btn:hover {
-    background: #ffd700;
-}
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: url('background.jpg') no-repeat center center/cover;
-    color: white;
-    margin: 0;
-    padding: 20px;
+    padding: 0;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+/* Main Content Box */
 .content {
-    background: rgba(0, 0, 0, 0.6); /* Dark background for better readability */
+    background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -123,6 +23,18 @@ body {
     max-width: 500px;
 }
 
+/* Headings and Text */
+h1 {
+    color: gold;
+    text-shadow: 2px 2px 5px black;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Button Styling */
 .btn {
     display: inline-block;
     background: gold;
@@ -132,19 +44,25 @@ body {
     font-weight: bold;
     text-decoration: none;
     border-radius: 5px;
-    transition: background 0.3s ease;
+    transition: background 0.3s ease, transform 0.2s ease;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .btn:hover {
     background: #ffd700;
+    transform: scale(1.1);
 }
-/* Contact Section - Centered & Clean */
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* Contact Section */
 .contact {
-    margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    margin-top: 15px;
 }
 
 .contact a {
@@ -157,11 +75,11 @@ body {
     text-decoration: underline;
 }
 
-/* Testimonials Section - Centered & More Spaced */
+/* Testimonial Section */
 .testimonials {
-    margin-top: 40px;
+    margin-top: 50px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
     text-align: center;
     width: 80%;
@@ -176,8 +94,17 @@ body {
     font-size: 24px;
 }
 
-/* Individual Testimonial Styling */
+/* Individual Testimonial Box */
 .testimonial {
-    background: rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 16px;
+    color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
