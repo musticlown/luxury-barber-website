@@ -185,11 +185,11 @@ p {
     margin-right: 10px;
     vertical-align: middle;
 }
-.meet-the-barber {
+
+.meet-barber {
     text-align: center;
-    background: rgba(0, 0, 0, 0.85); /* Darker background */
-    color: white;
-    padding: 50px 20px;
-    margin-top: 40px;
-    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
 }
