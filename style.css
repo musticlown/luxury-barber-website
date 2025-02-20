@@ -137,20 +137,31 @@ p {
 /* Meet the Barber Section */
 .meet-the-barber {
     text-align: center;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.85); /* Darker background */
     color: white;
-    padding: 30px;
-    margin-top: 30px;
+    padding: 50px 20px;
+    margin-top: 40px;
     border-radius: 10px;
 }
 
+/* Barber Image Styling */
 .barber-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
+    margin: 10px auto;
+    display: block;
     border: 3px solid gold;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.8);
+}
+
+/* Improve Text Readability */
+.meet-the-barber p {
+    font-size: 18px;
+    line-height: 1.7;
+    max-width: 80%;
+    margin: 10px auto;
 }
 
 
